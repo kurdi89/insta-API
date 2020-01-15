@@ -18,21 +18,6 @@ jQuery(document).ready(async() => {
     /**Appending Nodes */
     // append nodes on the page : 
 
-    // var img = `<div class="card-img-top code-image ${scanned}">${svg}</div>`
-    // var div = `
-    // <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-2 code" id="${id}">
-    //     <div class="card m-1 mx-auto" style="width: 14rem;">
-    //         ${img}
-    //         <div class="card-body">
-    //         <h6 class="card-title code-status ${status}">${title}</h6>
-    //         <p class="card-text m-0"><small class="text-muted code-id">${id}</small> <span class="ml-2 delete-code" id="${id}"><small><i class="fa fa-trash"></i></small></small></span></p>
-    //         </div>
-    //     </div>
-    // </div>
-    // `;
-    // $('#row').append(div);
-
-    // document.getElementById("json").innerHTML = JSON.stringify(Object.values(insta)[0].hashtag.edge_hashtag_to_media, undefined, 2);
     $("#json").html(JSON.stringify(Object.values(insta)[0].hashtag.edge_hashtag_to_media, undefined, 2))
 
 
